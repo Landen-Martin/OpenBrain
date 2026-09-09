@@ -1,0 +1,25 @@
+{
+    "model": "qwen3:0.6b",
+    "max_tool_hops": 20,
+    "max_identical_repeats": 3,
+    "tool_timeout_seconds": 30,
+    "max_output_chars": 6000,
+    "max_fetch_chars": 8000,
+    "console_preview_chars": 300,
+    "memory_file": "memory.md",
+    "prompt_file": ".prompt.md",
+    "enabled_tools": {
+        "get_current_time": true,
+        "calculator": true,
+        "web_search": true,
+        "get_website_content": true,
+        "run_terminal_command": true,
+        "get_seconds_until_datetime": true,
+        "extract_number_from_text": true,
+        "get_weather": true,
+        "get_news": true,
+        "get_memory": true,
+        "set_memory": true,
+        "list_memory": true
+  }
+}
